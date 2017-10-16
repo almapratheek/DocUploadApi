@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocUploadApi.iml" filepath="$PROJECT_DIR$/.idea/modules/DocUploadApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocUploadApi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DocUploadApi_main.iml" group="DocUploadApi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DocUploadApi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DocUploadApi_test.iml" group="DocUploadApi" />
+    </modules>
+  </component>
+</project>
