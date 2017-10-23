@@ -13,9 +13,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.net.URL;
 
-import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
@@ -39,5 +38,13 @@ public class ProductControllerSpec {
         ResponseEntity<ProductObjects> response = template.getForEntity(base.toString(),
                 ProductObjects.class);
         assertNotNull(response.getBody());
+    }
+
+    @Test
+    public void getProductsFilteredByCategory() throws Exception {
+        ResponseEntity<ProductObjects> response = template.getForEntity(base.toString()+"?category=snacks,foods",
+                ProductObjects.class);
+        assertNotNull(response.getBody());
+        assertTrue(!response.getBody().getProducts().isEmpty());
     }
 }

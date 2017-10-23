@@ -13,8 +13,10 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
@@ -23,14 +25,25 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 public class ProductController {
     @CrossOrigin
     @RequestMapping(value = "/getProducts", method = GET, produces = "application/json")
-    public ResponseEntity<ProductObjects> getProducts() {
+    public ResponseEntity<ProductObjects> getProducts(
+            @RequestParam(value = "category", required = false) Optional<String> category) {
 
         ProductObjects response = new ProductObjects();
-        response.setProducts(readFileInList("src/main/resources/Products.txt")
+        List<ProductObject> products = readFileInList("src/main/resources/Products.txt")
                 .stream()
                 .map(a -> a.split(","))
-                .map(s -> new ProductObject(s[2],s[3],s[4],Double.parseDouble(s[5]),s[6]))
-                .collect(Collectors.toList()));
+                .map(s -> new ProductObject(s[1], s[2], s[3], s[4], Double.parseDouble(s[5]), s[6]))
+                .collect(Collectors.toList());
+
+        products = category.isPresent()? products
+                                .stream()
+                                .filter(product -> Arrays.stream(category.get().split(","))
+                                        .map(String::toLowerCase)
+                                        .collect(Collectors.toList())
+                                        .contains(product.category.toLowerCase()))
+                                .collect(Collectors.toList()) : products;
+
+        response.setProducts(products);
 
         return new ResponseEntity<>(response, HttpStatus.OK);
     }

@@ -1,81 +1,81 @@
-1,5,100% Pure Peanut Oil,NIRAV,1gal,8.8900000000000006,TN1025006.jpg
-2,5,Amul Cheese,Amul,14oz,4.9900000000000002,TNACHEESE.jpg
-3,5,Kraft,Pasteurized Processed Che,8Ounce,3.29,TNFRCCGE01CS.jpg
-4,5,Pure Ghee,NIRAV,14oz,6.9900000000000002,TN1025007.jpg
-5,5,Pure Ghee,Amul,2.2lb(s),11.49,TNAPGHONE.jpg
-6,6,Chana Dal,Laxmi,2lb,1.99,TN1045043.jpg
-7,6,Daliya (Split),NIRAV,14oz,1.99,TNEG0200F0166.jpg
-8,6,Masoor Dal,Masoor Dal,4.4lb(s),3.6899999999999999,TN1045066.jpg
-9,6,Masoor Whole,Masoor Whole,4.4lb(s),4.79,TN1045070.jpg
-10,7,All Purpose Flour,All Purpose Flour,5lb(s),2.1899999999999999,TN1030002.jpg
-11,7,Bajri Flour (Bajra Atta),NIRAV,2lb(s),2.9900000000000002,TN1030028.jpg
-12,7,Chapati Flour,Laxmi,4.4lb,3.29,TNFLCHLX04CS.jpg
-13,7,Corn Flour Fine,Corn Flour Fine,2lb(s),1.1899999999999999,TN1030009.jpg
-14,7,Corn Flour,Corn Flour,5lb(s),2.79,TN1030008.jpg
-15,8,Achar Gosht,SHAAN,50gm,0.89000000000000001,TN1065052.jpg
-16,8,Achar Gosht Masala,SANFAZ,50gm,0.89000000000000001,TN8961007010206.jpg
-17,8,Bihari Kabab,SHAAN,50gm,0.89000000000000001,TN1065053.jpg
-18,8,Bihari Kabab,SHAAN,50gm,0.89000000000000001,TN8961007010138.jpg
-19,8,Biryani Masala,SANFAZ,50gm,0.89000000000000001,TN8961007010121.jpg
-20,8,Biryani-Pulav ,BADSHAH,3.5oz,1.3899999999999999,TN1065001.jpg
-21,8,Bombay Biryani Masala,SANFAZ,60gm,0.89000000000000001,TN8961007010138.jpg
-22,8,Chaat Masala,BADSHAH,3.5oz,1.3899999999999999,TN1065003.jpg
-23,9,Chilli Pickle In Oil,PATAK,10oz,3.9900000000000002,TN1055058.jpg
-24,9,Chilli Pickle In Oil,AHMED,11.5oz,2.6899999999999999,TN1055070.jpg
-25,9, Green Chili ,MTR,300gm,2.79,TN1055015.jpg
-26,9,Green Chilli Pickle,NIRAV,2lb(s),5.3899999999999997,TN1055032.jpg
-27,9,Red Chilli Pickle,PACHRANGA,28oz,2.9900000000000002,TN1055054.jpg
-28,9,Red Chilli Pickle Without Garlic,PRIYA,300gm,1.99,TNEG0200F0154.jpg
-29,10,Extra Hot Garlic Pickle,NIRAV,2lb(s),5.4900000000000002,TN1055035.jpg
-30,10,Garlic Pickle,PRIYA,300gm,1.99,TNEG0200F0128.jpg
-31,11,Ginger Pickle With Garlic,PRIYA,300gm,1.99,TNEG0200F0137.jpg
-32,11,Ginger Pickle Without Garlic,PRIYA,300gm,1.99,TNEG0200F0138.jpg
-33,11,Sweet Ginger Pickle,PRIYA,300gm,1.99,TNvc9cs.jpg
-34,11,Sweet Ginger Pickle,PRIYA,300gm,1.99,TNEG0200F0155.jpg
-35,12,Medium Hot Mixed Pickle In Oil,PATAK,10oz,3.4900000000000002,TN1055057.jpg
-36,12,Chilli Tomato Pickle,PATAK,10.5oz,3.4900000000000002,TN1055061.jpg
-37,12,Gongura Red Chilli Pickle With Garlic,PRIYA,300gm,1.99,TNEG0200F0142.jpg
-38,12,Lime And Chilli Pickle,PACHRANGA,28oz,2.8900000000000001,TN1055049.jpg
-39,12,Mango Ginger Pickle,PRIYA,300gm,1.99,TNEG0200F0148.jpg
-40,13,Fresh Curry Leaves,Melissa's,1lb(s),25.989999999999998,TN5410002617.jpg
-41,13,Fresh Guava (18 count),Melissa's,6lb(s),34.990000000000002,TN5410002651.jpg
-42,13, Fresh Lychee ,Melissa's,5.8lb(s),39.990000000000002,TNGOLY300.jpg
-43,13,Fresh Mango (9 count),Melissa's,11lb(s),34.990000000000002,TN5410002628.jpg
-44,13,Fresh Okra,Melissa's,3lb(s),21.989999999999998,TN5410002606.jpg
-45,13,Fresh Papaya (8 count),Melissa's,11lb(s),47.990000000000002,TN5410002639.jpg
-46,13,Fresh Pomegranate (12 count),Melissa's,7lb(s),38.990000000000002,TN5410002640.jpg
-47,13,Fresh White Coconuts (4 count),Melissa's,6lb(s),22.989999999999998,TNWHCOCO.jpg
-48,14,Alphonso Mango Pulp,NIRAV,30oz,2.4900000000000002,TN1010009.jpg
-49,14,Bournvita,BOURNVITA,500gm,4.79,TN1010002.jpg
-50,14,Chickoo Slices,NIRAV,30oz,2.7999999999999998,TN1010011.jpg
-51,14,Coconut Juice,11.8oz,15.9oz,1.99,TN1010004.jpg
-52,14,Frooti Mango Drink,PARLE,200gm,0.65000000000000002,TN726274130280.jpg
-53,14,Guava Fruit Drink,Maaza,11.19oz,0.98999999999999999,TNDRGUMZ10CS.jpg
-54,14,Horlicks,HORLICKS,500gm,4.9900000000000002,TN1015018.jpg
-55,15,Appalams (Papads),Shree Mahalakshmi,225gm,1.49,TN1050001.jpg
-56,15,Fryums Regular,Nirav,7Oz,1.6899999999999999,TN024433003926.jpg
-57,15,Jeera (Cumin) Papad,LIJJAT,7oz,1.1899999999999999,TN1050006.jpg
-58,15,Madras Plain Poppadoms(Papad),JOY,7oz,1.49,TN1050003.jpg
-59,15,Papad With Black Pepper,LIJJAT,7oz,1.1899999999999999,TN1050004.jpg
-60,15,Punjabi Special Papad,LIJJAT,7oz,1.1899999999999999,TN1050007.jpg
-61,15,Red Chillies Papad,LIJJAT,7oz,1.1899999999999999,TN1050008.jpg
-62,16,Amarti ,Amarti,1lb ,12.99,TNS032A.jpg
-63,16,Assorted Dry Mix Sweets,Assorted Dry Mix Sweets,1lb,12.99,TNS058A.jpg
-64,16,Badam Burfi,Badam Burfi,1lb,12.99,TNS012A.jpg
-65,16,Balushai,Balushai,1lb,12.99,TNS021A.jpg
-66,16,Besan Ladoo,Besan Ladoo,1lb,12.99,TNS030A.jpg
-67,16,Bundi Ladoo,Bundi Ladoo,1lb,12.99,TNS027A.jpg
-68,16,Coconut Burfi,Coconut Burfi,1lb,12.99,TNS016A.jpg
-69,16,Dilpasand,Dilpasand,1lb,13.99,TNDILPAS1.jpg
-70,16,Jalebi,Jalebi,1lb,12.99,TNS025A.jpg
-71,17,Mathri,HALDIRAM,200gm,2.5899999999999999,TN871265505070.jpg
-72,17,All In One,HALDIRAM,200gm,2.5899999999999999,TN871265502024.jpg
-73,17,Aloo Bhujia,HALDIRAM,200gm,2.1899999999999999,TN871265502017.jpg
-74,17,Badam Lachha Mixture,HALDIRAM,200gm,3.79,TN871265502048.jpg
-75,17,Bombay Chana,HALDIRAM,200gm,2.3900000000000001,TN871265502031.jpg
-76,17,Chana Jor Garam,HALDIRAM,200gm,2.3900000000000001,TN871265502093.jpg
-77,17,Dal Biji,Haldiram,200Gram,2.29,TNSNHDALBJ.jpg
-78,17,Haldiram Cornflake Mixture,HALDIRAM,200gm,2.3900000000000001,TN871265502048.jpg
-79,17,Haldiram Kashmiri Mixture,HALDIRAM,200gm,3.5899999999999999,TN871265502024.jpg
-80,17,Hara Chiwda,HALDIRAM,200gm,2.79,TN871265502154.jpg
-81,17,The light crispy salty biscuits that are perfect with tea. ,Monaco,1pkt,0.79000000000000004,TNSNMOPA01CS.jpg
+1,Groceries,100% Pure Peanut Oil,NIRAV,1gal,8.8900000000000006,TN1025006.jpg
+2,Groceries,Amul Cheese,Amul,14oz,4.9900000000000002,TNACHEESE.jpg
+3,Groceries,Kraft,Pasteurized Processed Che,8Ounce,3.29,TNFRCCGE01CS.jpg
+4,Groceries,Pure Ghee,NIRAV,14oz,6.9900000000000002,TN1025007.jpg
+5,Groceries,Pure Ghee,Amul,2.2lb(s),11.49,TNAPGHONE.jpg
+6,Groceries,Chana Dal,Laxmi,2lb,1.99,TN1045043.jpg
+7,Groceries,Daliya (Split),NIRAV,14oz,1.99,TNEG0200F0166.jpg
+8,Groceries,Masoor Dal,Masoor Dal,4.4lb(s),3.6899999999999999,TN1045066.jpg
+9,Groceries,Masoor Whole,Masoor Whole,4.4lb(s),4.79,TN1045070.jpg
+10,Groceries,All Purpose Flour,All Purpose Flour,5lb(s),2.1899999999999999,TN1030002.jpg
+11,Groceries,Bajri Flour (Bajra Atta),NIRAV,2lb(s),2.9900000000000002,TN1030028.jpg
+12,Groceries,Chapati Flour,Laxmi,4.4lb,3.29,TNFLCHLX04CS.jpg
+13,Groceries,Corn Flour Fine,Corn Flour Fine,2lb(s),1.1899999999999999,TN1030009.jpg
+14,Groceries,Corn Flour,Corn Flour,5lb(s),2.79,TN1030008.jpg
+15,Groceries,Achar Gosht,SHAAN,50gm,0.89000000000000001,TN1065052.jpg
+16,Groceries,Achar Gosht Masala,SANFAZ,50gm,0.89000000000000001,TN8961007010206.jpg
+17,Groceries,Bihari Kabab,SHAAN,50gm,0.89000000000000001,TN1065053.jpg
+18,Groceries,Bihari Kabab,SHAAN,50gm,0.89000000000000001,TN8961007010138.jpg
+19,Groceries,Biryani Masala,SANFAZ,50gm,0.89000000000000001,TN8961007010121.jpg
+20,Groceries,Biryani-Pulav ,BADSHAH,3.5oz,1.3899999999999999,TN1065001.jpg
+21,Groceries,Bombay Biryani Masala,SANFAZ,60gm,0.89000000000000001,TN8961007010138.jpg
+22,Groceries,Chaat Masala,BADSHAH,3.5oz,1.3899999999999999,TN1065003.jpg
+23,Pickles,Chilli Pickle In Oil,PATAK,10oz,3.9900000000000002,TN1055058.jpg
+24,Pickles,Chilli Pickle In Oil,AHMED,11.5oz,2.6899999999999999,TN1055070.jpg
+25,Pickles, Green Chili ,MTR,300gm,2.79,TN1055015.jpg
+26,Pickles,Green Chilli Pickle,NIRAV,2lb(s),5.3899999999999997,TN1055032.jpg
+27,Pickles,Red Chilli Pickle,PACHRANGA,28oz,2.9900000000000002,TN1055054.jpg
+28,Pickles,Red Chilli Pickle Without Garlic,PRIYA,300gm,1.99,TNEG0200F0154.jpg
+29,Pickles,Extra Hot Garlic Pickle,NIRAV,2lb(s),5.4900000000000002,TN1055035.jpg
+30,Pickles,Garlic Pickle,PRIYA,300gm,1.99,TNEG0200F0128.jpg
+31,Pickles,Ginger Pickle With Garlic,PRIYA,300gm,1.99,TNEG0200F0137.jpg
+32,Pickles,Ginger Pickle Without Garlic,PRIYA,300gm,1.99,TNEG0200F0138.jpg
+33,Pickles,Sweet Ginger Pickle,PRIYA,300gm,1.99,TNvc9cs.jpg
+34,Pickles,Sweet Ginger Pickle,PRIYA,300gm,1.99,TNEG0200F0155.jpg
+35,Pickles,Medium Hot Mixed Pickle In Oil,PATAK,10oz,3.4900000000000002,TN1055057.jpg
+36,Pickles,Chilli Tomato Pickle,PATAK,10.5oz,3.4900000000000002,TN1055061.jpg
+37,Pickles,Gongura Red Chilli Pickle With Garlic,PRIYA,300gm,1.99,TNEG0200F0142.jpg
+38,Pickles,Lime And Chilli Pickle,PACHRANGA,28oz,2.8900000000000001,TN1055049.jpg
+39,Pickles,Mango Ginger Pickle,PRIYA,300gm,1.99,TNEG0200F0148.jpg
+40,Foods,Fresh Curry Leaves,Melissa's,1lb(s),25.989999999999998,TN5410002617.jpg
+41,Foods,Fresh Guava (18 count),Melissa's,6lb(s),34.990000000000002,TN5410002651.jpg
+42,Foods, Fresh Lychee ,Melissa's,5.8lb(s),39.990000000000002,TNGOLY300.jpg
+43,Foods,Fresh Mango (9 count),Melissa's,11lb(s),34.990000000000002,TN5410002628.jpg
+44,Foods,Fresh Okra,Melissa's,3lb(s),21.989999999999998,TN5410002606.jpg
+45,Foods,Fresh Papaya (8 count),Melissa's,11lb(s),47.990000000000002,TN5410002639.jpg
+46,Foods,Fresh Pomegranate (12 count),Melissa's,7lb(s),38.990000000000002,TN5410002640.jpg
+47,Foods,Fresh White Coconuts (4 count),Melissa's,6lb(s),22.989999999999998,TNWHCOCO.jpg
+48,Foods,Alphonso Mango Pulp,NIRAV,30oz,2.4900000000000002,TN1010009.jpg
+49,Foods,Bournvita,BOURNVITA,500gm,4.79,TN1010002.jpg
+50,Foods,Chickoo Slices,NIRAV,30oz,2.7999999999999998,TN1010011.jpg
+51,Foods,Coconut Juice,11.8oz,15.9oz,1.99,TN1010004.jpg
+52,Foods,Frooti Mango Drink,PARLE,200gm,0.65000000000000002,TN726274130280.jpg
+53,Foods,Guava Fruit Drink,Maaza,11.19oz,0.98999999999999999,TNDRGUMZ10CS.jpg
+54,Foods,Horlicks,HORLICKS,500gm,4.9900000000000002,TN1015018.jpg
+55,Foods,Appalams (Papads),Shree Mahalakshmi,225gm,1.49,TN1050001.jpg
+56,Foods,Fryums Regular,Nirav,7Oz,1.6899999999999999,TN024433003926.jpg
+57,Foods,Jeera (Cumin) Papad,LIJJAT,7oz,1.1899999999999999,TN1050006.jpg
+58,Foods,Madras Plain Poppadoms(Papad),JOY,7oz,1.49,TN1050003.jpg
+59,Foods,Papad With Black Pepper,LIJJAT,7oz,1.1899999999999999,TN1050004.jpg
+60,Foods,Punjabi Special Papad,LIJJAT,7oz,1.1899999999999999,TN1050007.jpg
+61,Foods,Red Chillies Papad,LIJJAT,7oz,1.1899999999999999,TN1050008.jpg
+62,Snacks,Amarti ,Amarti,1lb ,12.99,TNS032A.jpg
+63,Snacks,Assorted Dry Mix Sweets,Assorted Dry Mix Sweets,1lb,12.99,TNS058A.jpg
+64,Snacks,Badam Burfi,Badam Burfi,1lb,12.99,TNS012A.jpg
+65,Snacks,Balushai,Balushai,1lb,12.99,TNS021A.jpg
+66,Snacks,Besan Ladoo,Besan Ladoo,1lb,12.99,TNS030A.jpg
+67,Snacks,Bundi Ladoo,Bundi Ladoo,1lb,12.99,TNS027A.jpg
+68,Snacks,Coconut Burfi,Coconut Burfi,1lb,12.99,TNS016A.jpg
+69,Snacks,Dilpasand,Dilpasand,1lb,13.99,TNDILPAS1.jpg
+70,Snacks,Jalebi,Jalebi,1lb,12.99,TNS025A.jpg
+71,Snacks,Mathri,HALDIRAM,200gm,2.5899999999999999,TN871265505070.jpg
+72,Snacks,All In One,HALDIRAM,200gm,2.5899999999999999,TN871265502024.jpg
+73,Snacks,Aloo Bhujia,HALDIRAM,200gm,2.1899999999999999,TN871265502017.jpg
+74,Snacks,Badam Lachha Mixture,HALDIRAM,200gm,3.79,TN871265502048.jpg
+75,Snacks,Bombay Chana,HALDIRAM,200gm,2.3900000000000001,TN871265502031.jpg
+76,Snacks,Chana Jor Garam,HALDIRAM,200gm,2.3900000000000001,TN871265502093.jpg
+77,Snacks,Dal Biji,Haldiram,200Gram,2.29,TNSNHDALBJ.jpg
+78,Snacks,Haldiram Cornflake Mixture,HALDIRAM,200gm,2.3900000000000001,TN871265502048.jpg
+79,Snacks,Haldiram Kashmiri Mixture,HALDIRAM,200gm,3.5899999999999999,TN871265502024.jpg
+80,Snacks,Hara Chiwda,HALDIRAM,200gm,2.79,TN871265502154.jpg
+81,Snacks,The light crispy salty biscuits that are perfect with tea. ,Monaco,1pkt,0.79000000000000004,TNSNMOPA01CS.jpg
