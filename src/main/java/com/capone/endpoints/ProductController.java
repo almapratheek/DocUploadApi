@@ -2,6 +2,7 @@ package com.capone.endpoints;
 
 import com.capone.model.ProductObject;
 import com.capone.model.ProductObjects;
+import com.capone.utils.Utilities;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -26,24 +27,27 @@ public class ProductController {
     @CrossOrigin
     @RequestMapping(value = "/getProducts", method = GET, produces = "application/json")
     public ResponseEntity<ProductObjects> getProducts(
-            @RequestParam(value = "category", required = false) Optional<String> category) {
+            @RequestParam(value = "category", required = false) Optional<String> category,
+            @RequestParam(value = "pageIndex", defaultValue = "1") int pageIndex,
+            @RequestParam(value = "limit") int limit) {
 
         ProductObjects response = new ProductObjects();
         List<ProductObject> products = readFileInList("src/main/resources/Products.txt")
                 .stream()
                 .map(a -> a.split(","))
-                .map(s -> new ProductObject(s[1], s[2], s[3], s[4], Double.parseDouble(s[5]), s[6]))
+                .map(s -> new ProductObject(Integer.parseInt(s[0]), s[1], s[2], s[3], s[4], Double.parseDouble(s[5]), s[6]))
                 .collect(Collectors.toList());
 
-        products = category.isPresent()? products
-                                .stream()
-                                .filter(product -> Arrays.stream(category.get().split(","))
-                                        .map(String::toLowerCase)
-                                        .collect(Collectors.toList())
-                                        .contains(product.category.toLowerCase()))
-                                .collect(Collectors.toList()) : products;
-
-        response.setProducts(products);
+        products = category.isPresent()?
+                products.stream()
+                        .filter(product -> Arrays.stream(category.get().split(","))
+                                .map(String::toLowerCase)
+                                .collect(Collectors.toList())
+                                .contains(product.category.toLowerCase()))
+                        .collect(Collectors.toList()) :
+                products;
+        response.setTotal(products.size());
+        response.setProducts(Utilities.collate(products, limit, limit).get(pageIndex - 1));
 
         return new ResponseEntity<>(response, HttpStatus.OK);
     }

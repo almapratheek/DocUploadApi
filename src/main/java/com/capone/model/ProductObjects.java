@@ -4,7 +4,9 @@ import java.util.List;
 
 public class ProductObjects {
 
-    public List<ProductObject> products;
+    private List<ProductObject> products;
+
+    private int total;
 
     public List<ProductObject> getProducts() {
         return products;
@@ -12,5 +14,13 @@ public class ProductObjects {
 
     public void setProducts(List<ProductObject> products) {
         this.products = products;
+    }
+
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
     }
 }

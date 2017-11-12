@@ -8,6 +8,8 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 @JsonSerialize(include = JsonSerialize.Inclusion.NON_NULL)
 public class ProductObject {
 
+    @JsonProperty("id")
+    public int productId;
     @JsonProperty("category")
     public String category;
     @JsonProperty("name")
@@ -21,7 +23,8 @@ public class ProductObject {
     @JsonProperty("pictureName")
     public String pictureName;
 
-    public ProductObject(String category, String description, String name, String packageUnits, double price, String pictureName) {
+    public ProductObject(int id, String category, String description, String name, String packageUnits, double price, String pictureName) {
+        this.productId = id;
         this.category = category;
         this.description = description;
         this.name = name;

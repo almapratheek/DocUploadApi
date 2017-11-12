@@ -42,7 +42,15 @@ public class ProductControllerSpec {
 
     @Test
     public void getProductsFilteredByCategory() throws Exception {
-        ResponseEntity<ProductObjects> response = template.getForEntity(base.toString()+"?category=snacks,foods",
+        ResponseEntity<ProductObjects> response = template.getForEntity(base.toString()+"?category=snacks,foods&limit=5",
+                ProductObjects.class);
+        assertNotNull(response.getBody());
+        assertTrue(!response.getBody().getProducts().isEmpty());
+    }
+
+    @Test
+    public void getProductsFilteredByPage() throws Exception {
+        ResponseEntity<ProductObjects> response = template.getForEntity(base.toString()+"?pageIndex=1&limit=5",
                 ProductObjects.class);
         assertNotNull(response.getBody());
         assertTrue(!response.getBody().getProducts().isEmpty());
