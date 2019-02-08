@@ -15,6 +15,10 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
+springBoot {
+    mainClass = 'com.capone.Application'
+}
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
